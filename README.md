@@ -64,11 +64,6 @@ tkinter	Desktop user interface
 pandas	Parquet → CSV transformation
 zipfile	Optional CSV compression
 Event-driven callbacks	User-triggered execution
-🧩 Code Structure (High-Level)
-parquet-to-csv-gui/
-├── app.py
-├── requirements.txt
-└── README.md
 
 Key Functions
 
