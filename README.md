@@ -17,17 +17,12 @@ The project demonstrates **end-to-end data engineering ownership**, combining:
 
 **Daily automated data flow:**
 
-Airflow DAG
-↓
-Python SSH Tunnel (EC2 Bastion)
-↓
-AWS RDS MySQL (Source)
-↓
-Python Transform (Pandas / PyArrow)
-↓
-Parquet Storage (OneDrive)
-↓
-Power BI Dashboards
+- **Airflow DAG**
+- ↓ Python SSH Tunnel (EC2 Bastion)
+- ↓ AWS RDS MySQL (Source)
+- ↓ Python Transform (Pandas / PyArrow)
+- ↓ Parquet Storage (OneDrive)
+- ↓ Power BI Dashboards
 
 
 ---
