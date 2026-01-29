@@ -17,6 +17,17 @@ The project demonstrates **end-to-end data engineering ownership**, combining:
 
 **Daily automated data flow:**
 
+Airflow DAG
+↓
+Python SSH Tunnel (EC2 Bastion)
+↓
+AWS RDS MySQL (Source)
+↓
+Python Transform (Pandas / PyArrow)
+↓
+Parquet Storage (OneDrive)
+↓
+Power BI Dashboards
 
 
 ---
@@ -152,6 +163,13 @@ This repository includes a **desktop GUI application** that allows **non-technic
 
 ## 📁 Repository Structure
 
+str-revenue-etl-pipeline/
+├── dags/ # Airflow DAG definitions
+├── src/ # ETL & transformation logic
+├── tools/
+│ └── parquet_to_csv/ # Stakeholder GUI utility
+├── docs/ # Architecture diagrams
+└── README.md
 
 
 ---
