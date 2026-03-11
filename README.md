@@ -217,7 +217,7 @@ This project demonstrates:
 
 ---
 
-## 🧾 Resume-Ready Summary
+## 🧾Summary
 
 > Designed and implemented a secure, Airflow-orchestrated ETL pipeline to extract STR revenue data from AWS RDS via SSH bastion, transform it using Python, and deliver Parquet-based datasets for Power BI, including a GUI tool enabling non-technical stakeholders to self-serve CSV exports.
 
